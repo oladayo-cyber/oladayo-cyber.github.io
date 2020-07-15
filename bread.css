@@ -1,0 +1,213 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 2, 2020, 3:09:33 PM
+    Author     : michael
+*/
+#all{
+    background-color:white;
+    background-size: 100%;
+    margin: 2px;
+    font-size: 14px;
+    font-family: Verdana, "Verdana CE",  Arial, "Arial CE", "Lucida Grande CE", lucida, "Helvetica CE", sans-serif;
+    
+}
+#av{
+    display:flex;
+    height: 50px;
+    background-color: whitesmoke;
+}
+.main-nav {
+    display: flex;
+        margin-right: 30px;
+        flex-direction: row;
+        justify-content: flex-end;
+        list-style-type: none;
+
+}
+.nav-links {
+     text-decoration: none;
+    color: rgba(255,255,255,0.7);
+    display: block;
+     margin-left: 40px;
+        color: black;
+
+}
+  #con{
+    
+    height: 300%;
+    
+    
+    
+}
+
+@media(min-width:768px){
+    #con{
+    display:flex;
+    height: 350%;
+    
+    justify-content: center;
+    
+}
+.cards_wrap {
+  display: flex;
+  flex-wrap: wrap;
+ 
+  
+}
+#container2{
+    display: flex;
+   
+}
+.cards_wrap .card_item {
+    width: 100%;
+  }
+}
+#con {
+    border: 0.5px #ccc solid;
+    padding:10px;
+}
+#section1{
+    flex: 0 0 100%;
+    order: 1;
+    height: 100%;
+    
+        
+}
+
+#footer{
+    display:flex;
+    height: 70px;
+    background-color: whitesmoke;
+}
+/*.card2{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    margin-left: 200px;
+    position: absolute;
+    
+}
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    margin-left: 500px;
+    position: absolute;
+    
+}
+.title{
+    color:grey;
+    font-size: 18px;
+}*/
+img {
+  display: block;
+  width: 75%;
+  height: 50%;
+  text-align: center;
+}
+.dy{
+  display: block;
+  width: 75%;
+  height: 10%;
+  text-align: center;
+}
+.wrapper {
+  width: 100%;
+  margin: 10px auto;
+}
+
+.cards_wrap {
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.cards_wrap .card_item {
+  width: 15%;
+  padding: 5px;
+}
+
+.cards_wrap .card_inner {
+  background: whitesmoke;
+   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.cards_wrap .card_top {
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  padding-bottom: 0;
+}
+
+.cards_wrap .card_bottom {
+  padding: 15px;
+}
+
+.cards_wrap .card_bottom .card_category {
+  font-size: 12px;
+  text-align: center;
+}
+
+.cards_wrap .card_bottom .card_info {
+  padding: 1px;
+  margin: 1px 0;
+  border: 1px dashed #0071bc;
+  text-align: center;
+   font-size: 10px;
+}
+.price{
+     text-align: center;
+     font-size: 12px;
+}
+
+.store{
+    font-size: 12px;
+}
+
+.cards_wrap .card_bottom .card_info .title {
+  color: #0071bc;
+  font-size: 10px;
+  margin-bottom: 5px;
+}
+
+.cards_wrap .card_bottom .card_creator {
+  text-align: center;
+}
+
+@media (max-width: 1024px) {
+  .cards_wrap .card_item {
+    width: 33.3%;
+  }
+}
+
+@media (max-width: 768px) {
+  .cards_wrap .card_item {
+    width: 50%;
+  }
+}
+
+@media (max-width: 528px) {
+  .cards_wrap .card_item {
+    width: 100%;
+  }
+}
+.footer1{
+    flex:0 0 50%;
+    order:1;
+     background-color:#333333;
+     display: none;
+     
+}
+.footer2{
+    flex:0 0 50%;
+    order:2;
+     background-color:#333333;
+     display: none;
+     
+}
